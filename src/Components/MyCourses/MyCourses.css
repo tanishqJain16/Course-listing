@@ -1,0 +1,56 @@
+.myCourses{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0 3rem;
+}
+
+.studentSelectionDropdown{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.studentSelectionDropdown label{
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.studentSelectionDropdown select{
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.studentSelectionDropdown select:focus{
+    outline: none;
+}
+
+.studentSelectionDropdown select option{
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.registeredCourses{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.noDataDivv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noDataImgg{
+    height: 30rem;
+    border-radius: 10px;
+    mix-blend-mode: multiply;
+}
